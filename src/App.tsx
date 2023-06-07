@@ -191,7 +191,7 @@ function App() {
                     }}
                     component="img"
                     alt={"EdSheeran"}
-                    src={`${process.env.PUBLIC_URL}/${"EdSheeran"}.png`}
+                    src={`${process.env.PUBLIC_URL}/${"edsheeran"}.png`}
                   />
                 </Box>
               </TableCell>
