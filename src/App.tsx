@@ -155,7 +155,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>What's your favorite phone?</h2>
+        <h2>What's your favorite song star?</h2>
       </header>
       <TableContainer
         component={Paper}
@@ -165,8 +165,8 @@ function App() {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell align="center">iPhone</TableCell>
-              <TableCell align="center">Android</TableCell>
+              <TableCell align="center">Justin Bieber</TableCell>
+              <TableCell align="center">Ed Sheeran</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -178,8 +178,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"iphone"}
-                    src={`${process.env.PUBLIC_URL}/${"iphone"}.png`}
+                    alt={"JustinBieber"}
+                    src={`${process.env.PUBLIC_URL}/${"JustinBieber"}.png`}
                   />
                 </Box>
               </TableCell>
@@ -190,8 +190,8 @@ function App() {
                       height: 200,
                     }}
                     component="img"
-                    alt={"android"}
-                    src={`${process.env.PUBLIC_URL}/${"android"}.png`}
+                    alt={"EdSheeran"}
+                    src={`${process.env.PUBLIC_URL}/${"EdSheeran"}.png`}
                   />
                 </Box>
               </TableCell>
