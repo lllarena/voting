@@ -11,7 +11,7 @@ Voting.loadArtifact(artifact);
 
 Scrypt.init({
   // https://docs.scrypt.io/advanced/how-to-integrate-scrypt-service#get-your-api-key
-  apiKey: 'YOUR_API_KEY',
+  apiKey: 'testnet_3VWKXUh4tyd8TgKEfXVefcwrsFK9SCQZYGdW0z9wE5irs8AnG',
   network: 'testnet'
 })
 

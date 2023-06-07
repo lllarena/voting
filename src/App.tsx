@@ -29,7 +29,7 @@ import Footer from "./Footer";
 // `npm run deploycontract` to get deployment transaction id
 const contract_id = {
   /** The deployment transaction id */
-  txId: "65d80537b63bc7fe12280826cdb9fa4424add5c08def0340ddc8444908c03d9e",
+  txId: "0097e330a933ce31aa458584a2f07591274337048c805dc7c139e76c3562eee8",
   /** The output index */
   outputIndex: 0,
 };
@@ -213,7 +213,7 @@ function App() {
               </TableCell>
 
               <TableCell align="center">
-              <Divider orientation="vertical" flexItem />
+                <Divider orientation="vertical" flexItem />
                 <Box>
                   <Typography variant={"h1"}>
                     {votingContract?.candidates[1].votesReceived.toString()}
@@ -252,9 +252,8 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            {`"${byteString2utf8(success.candidate)}" got one vote,  tx: ${
-              success.txId
-            }`}
+            {`"${byteString2utf8(success.candidate)}" got one vote,  tx: ${success.txId
+              }`}
           </Link>
         </Alert>
       </Snackbar>
